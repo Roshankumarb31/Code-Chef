@@ -1,9 +1,5 @@
 for i in range(int(input())):
-    j = int(input())
-    a = [int(k) for k in input()]
-    b = [int(k) for k in input()]
-    a.sort()
-    b.sort()
+    j , a , b = int(input()) , sorted([int(k) for k in input()]) , sorted([int(k) for k in input()])
     if a == b:
         print('YES')
         continue
